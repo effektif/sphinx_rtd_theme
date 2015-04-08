@@ -18,8 +18,8 @@ setup(
     description='Effektif theme for Sphinx, based on the ReadTheDocs.org theme.',
     long_description=open('README.rst').read(),
     zip_safe=False,
-    packages=['sphinx_rtd_theme'],
-    package_data={'sphinx_rtd_theme': [
+    packages=['effektif_sphinx_theme'],
+    package_data={'effektif_sphinx_theme': [
         'theme.conf',
         '*.html',
         'static/css/*.css',
