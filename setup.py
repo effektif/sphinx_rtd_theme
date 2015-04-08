@@ -5,7 +5,7 @@
 
 """
 from setuptools import setup
-from sphinx_rtd_theme import __version__
+from effektif_sphinx_theme import __version__
 
 
 setup(
