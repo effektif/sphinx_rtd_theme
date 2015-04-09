@@ -4945,8 +4945,14 @@ nav.stickynav {
 .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before {
   margin-right: 4px;
 }
+.rst-content .figure {
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  padding: 15px 0 5px;
+}
 .rst-content .figure .caption {
   font-size: 90%;
+  margin: 15px 0 0 0;
   color: #7e7e7e;
 }
 
