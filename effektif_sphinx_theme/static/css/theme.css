@@ -4945,6 +4945,10 @@ nav.stickynav {
 .rst-content tt.download span:first-child:before, .rst-content code.download span:first-child:before {
   margin-right: 4px;
 }
+.rst-content .figure .caption {
+  font-size: 90%;
+  color: #7e7e7e;
+}
 
 @media screen and (max-width: 480px) {
   .rst-content .sidebar {
@@ -4981,7 +4985,7 @@ span[id*='MathJax-Span'] {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 400;
-  src: local("Source Sans Pro Italic"), local("SourceSansPro-Italic"), url(../fonts/source-sans-pro/SourceSansPro-Italic-webfont.woff) format("woff"), url(../fonts/source-sans-pro/SourceSansPro-Italic-webfont.ttf) format("truetype");
+  src: local("Source Sans Pro Italic"), local("SourceSansPro-Italic"), url(../fonts/source-sans-pro/SourceSansPro-It-webfont.woff) format("woff"), url(../fonts/source-sans-pro/SourceSansPro-Italic-webfont.ttf) format("truetype");
 }
 @font-face {
   font-family: "Source Sans Pro";
