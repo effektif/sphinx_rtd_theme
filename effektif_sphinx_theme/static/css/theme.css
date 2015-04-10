@@ -4312,9 +4312,11 @@ div[class^='highlight'] pre {
 }
 .wy-side-nav-search input[type=text] {
   width: 100%;
-  border-radius: 50px;
-  padding: 6px 12px;
-  border-color: #0f6b71;
+  border-color: #cee4e5;
+  line-height: 42px;
+  padding: 0 15px;
+  height: 42px;
+  font-size: 14px;
 }
 .wy-side-nav-search img {
   display: block;
@@ -4820,7 +4822,7 @@ nav.stickynav {
 .rst-content table.field-list {
   border: none;
 }
-.rst-content table.field-list td {
+.rst-content table.field-list td, .rst-content table.field-list th {
   border: none;
   padding-top: 5px;
 }
@@ -5014,6 +5016,10 @@ span[id*='MathJax-Span'] {
 h1 {
   border-bottom: 1px solid #e5e5e5;
   padding-bottom: 5px;
+}
+
+dd {
+  line-height: 24px;
 }
 
 body {
