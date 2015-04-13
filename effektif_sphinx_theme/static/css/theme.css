@@ -4350,6 +4350,8 @@ div[class^='highlight'] pre {
 }
 .wy-side-nav-search > a span, .wy-side-nav-search .wy-dropdown > a span {
   font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight: 100;
   position: relative;
   top: 2px;
 }
@@ -4762,6 +4764,9 @@ nav.stickynav {
 .rst-content .align-center {
   margin: auto;
   display: block;
+}
+.rst-content h1, .rst-content h2, .rst-content h3, .rst-content h4, .rst-content h5, .rst-content h6, .rst-content dl dt {
+  color: #128187;
 }
 .rst-content h1 .headerlink, .rst-content h2 .headerlink, .rst-content h3 .headerlink, .rst-content h4 .headerlink, .rst-content h5 .headerlink, .rst-content h6 .headerlink, .rst-content dl dt .headerlink {
   display: none;
