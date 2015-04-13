@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Sphinx RTD theme demo'
+project = u'Theme demo'
 copyright = u'2013, Dave Snider'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -123,7 +123,7 @@ html_theme_path = ["../.."]
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+html_logo = "static/effektif-logo-white.svg"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32

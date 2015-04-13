@@ -130,13 +130,20 @@
       background: rgba(255,255,255,.1)
     img.logo
       display: inline-block
-      margin: 0 auto
+      margin: -8px
       height: auto  // undo badge styling above
       width: auto
       border-radius: 0
-      max-width: 130px
-      padding-top: 0
+      max-width: 120px
+      padding: 0
       background: rgba(0,0,0,0)  // make hover background of parent show up properly
+    span
+      font-family: $custom-font-family
+      position: relative
+      top: 2px
+      &:before
+        content: "\2022"
+        padding-right: 8px
 
 .wy-nav .wy-menu-vertical
   header
