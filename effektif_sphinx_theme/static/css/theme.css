@@ -4339,16 +4339,14 @@ div[class^='highlight'] pre {
   background: rgba(255, 255, 255, 0.1);
 }
 .wy-side-nav-search > a img.logo, .wy-side-nav-search .wy-dropdown > a img.logo {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   height: auto;
   width: auto;
   border-radius: 0;
-  max-width: 100%;
+  max-width: 130px;
+  padding-top: 0;
   background: transparent;
-}
-.wy-side-nav-search > a.icon img.logo, .wy-side-nav-search .wy-dropdown > a.icon img.logo {
-  margin-top: 0.85em;
 }
 
 .wy-nav .wy-menu-vertical header {
@@ -4442,6 +4440,7 @@ div[class^='highlight'] pre {
   font-size: 30px;
   float: left;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .wy-nav-content-wrap {
