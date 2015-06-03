@@ -61,7 +61,7 @@
       padding-right: 0
     // Expand links
     span.toctree-expand
-      display: block
+      display: none
       float: left
       margin-left: -1.2em
       @extend .fa
@@ -88,10 +88,13 @@
     span.toctree-expand
       @extend .fa
       @extend .fa-minus-square-o
-      display: block
+      display: none
       font-size: .8em
       line-height: 1.6em
       color: darken($text-medium, 30%)
+
+  .toctree-expand
+    display: none!important
 
   // This is the on state for pages beyond second level
   li.toctree-l1.current li.toctree-l2, li.toctree-l2.current li.toctree-l3
@@ -260,7 +263,7 @@
   padding-bottom: 2em
   width: $nav-desktop-width
   overflow-x: hidden
-  overflow-y: scroll
+  overflow-y: hidden
   min-height: 100%
   background: $menu-background-color
   z-index: $z-index-popover
