@@ -2725,7 +2725,7 @@ button[disabled] {
 }
 
 .btn-hover {
-  background: #15969e;
+  background: #15979e;
   color: #fff;
 }
 
@@ -4360,14 +4360,14 @@ div[class^='highlight'] pre {
   color: #cee4e5;
 }
 .wy-menu-vertical a:hover {
-  background-color: #0f6b71;
+  background-color: #0f6c71;
   cursor: pointer;
 }
 .wy-menu-vertical a:hover span.toctree-expand {
   color: #cee4e5;
 }
 .wy-menu-vertical a:active {
-  background-color: #0f6b71;
+  background-color: #0f6c71;
   cursor: pointer;
   color: #fff;
 }
@@ -4488,7 +4488,6 @@ div[class^='highlight'] pre {
   padding-bottom: 2em;
   width: 300px;
   overflow-x: hidden;
-  overflow-y: hidden;
   min-height: 100%;
   background: #128187;
   z-index: 200;
@@ -4664,7 +4663,7 @@ footer p {
 }
 .rst-versions .rst-current-version {
   padding: 12px;
-  background-color: #0f6b71;
+  background-color: #0f6c71;
   display: block;
   text-align: right;
   font-size: 90%;
@@ -4711,7 +4710,7 @@ footer p {
   border: 0;
   margin: 20px 0;
   padding: 0;
-  border-top: solid 1px #15969e;
+  border-top: solid 1px #15979e;
 }
 .rst-versions .rst-other-versions dd {
   display: inline-block;

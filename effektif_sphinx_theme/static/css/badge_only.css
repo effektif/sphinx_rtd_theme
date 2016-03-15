@@ -118,7 +118,7 @@ ul.fas li .fa-large:before {
 }
 .rst-versions .rst-current-version {
   padding: 12px;
-  background-color: #0f6b71;
+  background-color: #0f6c71;
   display: block;
   text-align: right;
   font-size: 90%;
@@ -165,7 +165,7 @@ ul.fas li .fa-large:before {
   border: 0;
   margin: 20px 0;
   padding: 0;
-  border-top: solid 1px #15969e;
+  border-top: solid 1px #15979e;
 }
 .rst-versions .rst-other-versions dd {
   display: inline-block;
