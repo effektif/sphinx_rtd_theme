@@ -2616,7 +2616,7 @@ a .fa, a .wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li a span.t
   background: #e1e4e5;
 }
 .wy-alert.wy-alert-neutral a, .rst-content .wy-alert-neutral.note a, .rst-content .wy-alert-neutral.attention a, .rst-content .wy-alert-neutral.caution a, .rst-content .wy-alert-neutral.danger a, .rst-content .wy-alert-neutral.error a, .rst-content .wy-alert-neutral.hint a, .rst-content .wy-alert-neutral.important a, .rst-content .wy-alert-neutral.tip a, .rst-content .wy-alert-neutral.warning a, .rst-content .wy-alert-neutral.seealso a, .rst-content .wy-alert-neutral.admonition-todo a {
-  color: #128187;
+  color: #870848;
 }
 
 .wy-alert p:last-child, .rst-content .note p:last-child, .rst-content .attention p:last-child, .rst-content .caution p:last-child, .rst-content .danger p:last-child, .rst-content .error p:last-child, .rst-content .hint p:last-child, .rst-content .important p:last-child, .rst-content .tip p:last-child, .rst-content .warning p:last-child, .rst-content .seealso p:last-child, .rst-content .admonition-todo p:last-child {
@@ -2708,7 +2708,7 @@ button[disabled] {
   background-color: #27AE60;
   text-decoration: none;
   font-weight: normal;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Arial, sans-serif;
   box-shadow: 0px 1px 2px -1px rgba(255, 255, 255, 0.5) inset, 0px -2px 0px 0px rgba(0, 0, 0, 0.1) inset;
   outline-none: false;
   vertical-align: middle;
@@ -2725,7 +2725,7 @@ button[disabled] {
 }
 
 .btn-hover {
-  background: #15979e;
+  background: #9f0955;
   color: #fff;
 }
 
@@ -2828,22 +2828,22 @@ button[disabled] {
 
 .btn-link {
   background-color: transparent !important;
-  color: #128187;
+  color: #870848;
   box-shadow: none;
   border-color: transparent !important;
 }
 .btn-link:hover {
   background-color: transparent !important;
-  color: #18acb4 !important;
+  color: #b70b62 !important;
   box-shadow: none;
 }
 .btn-link:active {
   background-color: transparent !important;
-  color: #18acb4 !important;
+  color: #b70b62 !important;
   box-shadow: none;
 }
 .btn-link:visited {
-  color: #18aab1;
+  color: #ad0f5b;
 }
 
 .wy-btn-group .btn, .wy-control .btn {
@@ -2894,7 +2894,7 @@ button[disabled] {
   cursor: pointer;
 }
 .wy-dropdown-menu > dd > a:hover {
-  background: #128187;
+  background: #870848;
   color: #fff;
 }
 .wy-dropdown-menu > dd.divider {
@@ -2935,7 +2935,7 @@ button[disabled] {
   padding: 6px 12px;
 }
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover {
-  background: #128187;
+  background: #870848;
   color: #fff;
 }
 
@@ -3146,7 +3146,7 @@ input {
 input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Arial, sans-serif;
   *overflow: visible;
 }
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"] {
@@ -3155,7 +3155,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="url
   display: inline-block;
   border: 1px solid #ccc;
   font-size: 80%;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Arial, sans-serif;
   box-shadow: inset 0 1px 3px #ddd;
   border-radius: 0;
   -webkit-transition: border 0.3s linear;
@@ -3224,7 +3224,7 @@ textarea {
   overflow: auto;
   vertical-align: top;
   width: 100%;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Arial, sans-serif;
 }
 
 select, textarea {
@@ -3609,15 +3609,15 @@ input[type="radio"][disabled], input[type="checkbox"][disabled] {
 }
 
 a {
-  color: #128187;
+  color: #870848;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: #0c565a;
+  color: #57052e;
 }
 a:visited {
-  color: #18aab1;
+  color: #ad0f5b;
 }
 
 html {
@@ -3626,7 +3626,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans Light", "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   color: #333333;
   min-height: 100%;
@@ -3705,7 +3705,7 @@ a.wy-text-neutral:hover {
 h1, h2, .rst-content p.caption, h3, h4, h5, h6, legend {
   margin-top: 0;
   font-weight: 700;
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  font-family: "Open Sans", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
 }
 
 p {
@@ -4162,7 +4162,7 @@ div[class^='highlight'] pre {
 
 .wy-breadcrumbs-extra {
   margin-bottom: 0;
-  color: #cee4e5;
+  color: #e082a5;
   font-size: 80%;
   display: inline-block;
 }
@@ -4242,7 +4242,7 @@ div[class^='highlight'] pre {
   border-bottom: none;
 }
 .wy-menu-vertical li.current {
-  background: #9cc8ca;
+  background: #f0ccd8;
 }
 .wy-menu-vertical li.current a {
   color: #333333;
@@ -4250,7 +4250,7 @@ div[class^='highlight'] pre {
   padding: 0.4045em 2.427em;
 }
 .wy-menu-vertical li.current a:hover {
-  background: #8bbfc1;
+  background: #eab8c9;
 }
 .wy-menu-vertical li code, .wy-menu-vertical li .rst-content tt, .rst-content .wy-menu-vertical li tt {
   border: none;
@@ -4277,7 +4277,7 @@ div[class^='highlight'] pre {
   padding-left: 1.618em -4px;
 }
 .wy-menu-vertical li.on a:hover, .wy-menu-vertical li.current > a:hover {
-  background: #f2f2f2;
+  background: #eeeeee;
 }
 .wy-menu-vertical li.on a:hover span.toctree-expand, .wy-menu-vertical li.current > a:hover span.toctree-expand {
   color: gray;
@@ -4347,7 +4347,7 @@ div[class^='highlight'] pre {
 }
 .wy-menu-vertical li ul li a {
   margin-bottom: 0;
-  color: #cee4e5;
+  color: #e082a5;
   font-weight: normal;
 }
 .wy-menu-vertical a {
@@ -4357,17 +4357,17 @@ div[class^='highlight'] pre {
   display: block;
   position: relative;
   font-size: 90%;
-  color: #cee4e5;
+  color: #fff;
 }
 .wy-menu-vertical a:hover {
-  background-color: #0f6c71;
+  background-color: #6f073b;
   cursor: pointer;
 }
 .wy-menu-vertical a:hover span.toctree-expand {
-  color: #cee4e5;
+  color: #e082a5;
 }
 .wy-menu-vertical a:active {
-  background-color: #0f6c71;
+  background-color: #6f073b;
   cursor: pointer;
   color: #fff;
 }
@@ -4377,7 +4377,7 @@ div[class^='highlight'] pre {
 
 .wy-side-nav-search {
   z-index: 200;
-  background-color: #18aab1;
+  background-color: #ad0f5b;
   text-align: center;
   padding: 0.809em;
   display: block;
@@ -4386,7 +4386,7 @@ div[class^='highlight'] pre {
 }
 .wy-side-nav-search input[type=text] {
   width: 100%;
-  border-color: #cee4e5;
+  border-color: #e082a5;
   line-height: 42px;
   padding: 0 15px;
   height: 42px;
@@ -4423,7 +4423,7 @@ div[class^='highlight'] pre {
   background: transparent;
 }
 .wy-side-nav-search > a span, .wy-side-nav-search .wy-dropdown > a span {
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  font-family: "Open Sans", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
   font-weight: 100;
   position: relative;
@@ -4435,13 +4435,13 @@ div[class^='highlight'] pre {
 }
 
 .wy-nav .wy-menu-vertical header {
-  color: #128187;
+  color: #870848;
 }
 .wy-nav .wy-menu-vertical a {
-  color: #cee4e5;
+  color: #e082a5;
 }
 .wy-nav .wy-menu-vertical a:hover {
-  background-color: #128187;
+  background-color: #870848;
   color: #fff;
 }
 
@@ -4471,7 +4471,7 @@ div[class^='highlight'] pre {
 }
 
 .wy-body-for-nav {
-  background: #f2f2f2;
+  background: #eeeeee;
 }
 
 .wy-grid-for-nav {
@@ -4489,13 +4489,13 @@ div[class^='highlight'] pre {
   width: 300px;
   overflow-x: hidden;
   min-height: 100%;
-  background: #128187;
+  background: #870848;
   z-index: 200;
 }
 
 .wy-nav-top {
   display: none;
-  background: #128187;
+  background: #870848;
   color: #fff;
   padding: 0.4045em 0.809em;
   position: relative;
@@ -4649,13 +4649,13 @@ footer p {
   left: 0;
   width: 300px;
   color: white;
-  background: #0d5f63;
-  border-top: solid 10px #128187;
-  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  background: #600633;
+  border-top: solid 10px #870848;
+  font-family: "Open Sans Light", "Helvetica Neue", Arial, sans-serif;
   z-index: 400;
 }
 .rst-versions a {
-  color: #128187;
+  color: #870848;
   text-decoration: none;
 }
 .rst-versions .rst-badge-small {
@@ -4663,7 +4663,7 @@ footer p {
 }
 .rst-versions .rst-current-version {
   padding: 12px;
-  background-color: #0f6c71;
+  background-color: #6f073b;
   display: block;
   text-align: right;
   font-size: 90%;
@@ -4710,7 +4710,7 @@ footer p {
   border: 0;
   margin: 20px 0;
   padding: 0;
-  border-top: solid 1px #15979e;
+  border-top: solid 1px #9f0955;
 }
 .rst-versions .rst-other-versions dd {
   display: inline-block;
@@ -4815,7 +4815,7 @@ footer p {
   margin-bottom: 12px;
 }
 .rst-content .toc-backref {
-  color: #128187;
+  color: #870848;
 }
 .rst-content .align-right {
   float: right;
@@ -4830,7 +4830,7 @@ footer p {
   display: block;
 }
 .rst-content h1, .rst-content h2, .rst-content p.caption, .rst-content h3, .rst-content h4, .rst-content h5, .rst-content h6, .rst-content dl dt, .rst-content p.caption {
-  color: #128187;
+  color: #870848;
 }
 .rst-content h1 .headerlink, .rst-content h2 .headerlink, .rst-content p.caption .headerlink, .rst-content h3 .headerlink, .rst-content h4 .headerlink, .rst-content h5 .headerlink, .rst-content h6 .headerlink, .rst-content dl dt .headerlink, .rst-content p.caption .headerlink {
   display: none;
@@ -4863,7 +4863,7 @@ footer p {
 }
 .rst-content .sidebar .sidebar-title {
   display: block;
-  font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+  font-family: "Open Sans", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
   font-weight: bold;
   background: #e1e4e5;
   padding: 6px 12px;
@@ -4927,7 +4927,7 @@ footer p {
   font-weight: bold;
 }
 .rst-content a tt, .rst-content a tt, .rst-content a code {
-  color: #128187;
+  color: #870848;
 }
 .rst-content dl {
   margin-bottom: 24px;
@@ -5026,13 +5026,13 @@ footer p {
 }
 .rst-content .figure {
   text-align: center;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #eeeeee;
   padding: 15px 0 5px;
 }
 .rst-content .figure .caption {
   font-size: 90%;
   margin: 15px 0 0 0;
-  color: #7e7e7e;
+  color: #7f7f7f;
 }
 
 @media screen and (max-width: 480px) {
@@ -5090,8 +5090,29 @@ span[id*='MathJax-Span'] {
   font-weight: 300;
   src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/robotoslab/RobotoSlab-Light.woff) format("woff"), url(../fonts/robotoslab/RobotoSlab-Light.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: light;
+  src: local("OpenSans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.eot");
+  src: local("OpenSans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), local("OpenSans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.woff") format("woff"), local("OpenSans Light"), local("OpenSans-Light"), url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("OpenSans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.eot");
+  src: local("OpenSans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), local("OpenSans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.woff") format("woff"), local("OpenSans Regular"), local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("OpenSans Semibold"), local("OpenSans-Semibold"), url("../fonts/OpenSans-Semibold.eot");
+  src: local("OpenSans Semibold"), local("OpenSans-Semibold"), url("../fonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), local("OpenSans Semibold"), local("OpenSans-Semibold"), url("../fonts/OpenSans-Semibold.woff") format("woff"), local("OpenSans Semibold"), local("OpenSans-Semibold"), url("../fonts/OpenSans-Semibold.ttf") format("truetype");
+}
 h1 {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #dddddd;
   padding-bottom: 5px;
 }
 
