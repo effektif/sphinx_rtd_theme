@@ -153,7 +153,7 @@
     display: block
     position: relative
     font-size: 90%
-    color: $text-light
+    color: $white
     &:hover
       background-color: darken($menu-background-color, 5%)
       cursor: pointer
@@ -205,6 +205,7 @@
       height: auto  // undo badge styling above
       width: auto
       border-radius: 0
+      height: 40px
       max-width: 120px
       padding: 0
       background: rgba(0,0,0,0)  // make hover background of parent show up properly
@@ -214,9 +215,6 @@
       font-weight: 100
       position: relative
       top: 2px
-      &:before
-        content: "\2022"
-        padding-right: $padding-default
 
 .wy-nav .wy-menu-vertical
   header
