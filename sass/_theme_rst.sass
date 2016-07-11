@@ -69,6 +69,28 @@
     td, th
       background: transparent !important
       border-color: rgba(0,0,0,.1) !important
+  // CI colors for admonitions
+  .attention, .caution, .important
+    background-color: #f7d8a8
+    .admonition-title
+      background-color: #f0ad26
+  .danger, .error
+    background-color: #f5b7b0
+    .admonition-title
+      background-color: #c22f1e
+  .hint, .tip
+    background-color: #dbe680
+    .admonition-title
+      background-color: #b8cc00
+  .warning
+    background-color: #faf2aa
+    .admonition-title
+      background-color: #fae100
+  .note
+    background-color: #c6e0f7
+    .admonition-title
+      background-color: #61aef2
+
   .section ul, .toctree-wrapper ul
     @extend .wy-plain-list-disc
   .section ol.loweralpha, .section ol.loweralpha li

@@ -4418,6 +4418,7 @@ div[class^='highlight'] pre {
   height: auto;
   width: auto;
   border-radius: 0;
+  height: 40px;
   max-width: 120px;
   padding: 0;
   background: transparent;
@@ -4428,10 +4429,6 @@ div[class^='highlight'] pre {
   font-weight: 100;
   position: relative;
   top: 2px;
-}
-.wy-side-nav-search > a span:before, .wy-side-nav-search .wy-dropdown > a span:before {
-  content: "•";
-  padding-right: 15px;
 }
 
 .wy-nav .wy-menu-vertical header {
@@ -4797,6 +4794,36 @@ footer p {
 .rst-content .admonition table td, .rst-content .admonition table th {
   background: transparent !important;
   border-color: rgba(0, 0, 0, 0.1) !important;
+}
+.rst-content .attention, .rst-content .caution, .rst-content .important {
+  background-color: #f7d8a8;
+}
+.rst-content .attention .admonition-title, .rst-content .caution .admonition-title, .rst-content .important .admonition-title {
+  background-color: #f0ad26;
+}
+.rst-content .danger, .rst-content .error {
+  background-color: #f5b7b0;
+}
+.rst-content .danger .admonition-title, .rst-content .error .admonition-title {
+  background-color: #c22f1e;
+}
+.rst-content .hint, .rst-content .tip {
+  background-color: #dbe680;
+}
+.rst-content .hint .admonition-title, .rst-content .tip .admonition-title {
+  background-color: #b8cc00;
+}
+.rst-content .warning {
+  background-color: #faf2aa;
+}
+.rst-content .warning .admonition-title {
+  background-color: #fae100;
+}
+.rst-content .note {
+  background-color: #c6e0f7;
+}
+.rst-content .note .admonition-title {
+  background-color: #61aef2;
 }
 .rst-content .section ol.loweralpha, .rst-content .section ol.loweralpha li {
   list-style: lower-alpha;
