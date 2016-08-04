@@ -123,7 +123,7 @@
     @extend h2
 
   // This is the #href that shows up on hover. Sphinx's is terrible so I hack it away.
-  h1, h2, h3, h4, h5, h6, dl dt, p.caption
+  h1, h2, h3, h4, h5, h6, dl dt, p.caption, table
     color: $primary-dark
     .headerlink
       display: none
@@ -175,6 +175,9 @@
 
   // Tables! Sphinx LOVES TABLES. Most of wyrm assumes you're only going to use a table as a table
   // so I have to write a bunch of unique stuff for Sphinx to style them up differently like it's 2003.
+  .wy-table-responsive
+    overflow: initial
+
   table.docutils.citation, table.docutils.footnote
     background: none
     border: none
@@ -190,8 +193,15 @@
   table.docutils
     @extend .wy-table
     @extend .wy-table-bordered-all
+    table-layout: fixed
+    width: 100%
     &:not(.field-list)
       @extend .wy-table-striped
+    td, th
+      word-wrap: break-word
+      white-space: initial
+      padding: 8px 8px
+      border-bottom: 0px
   // This table is what gets spit out for auto-generated API stuff. I style it smaller bits of padding.
   table.field-list
     @extend .wy-table
