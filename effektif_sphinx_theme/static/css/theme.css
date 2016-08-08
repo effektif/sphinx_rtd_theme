@@ -4929,6 +4929,7 @@ footer p {
 .rst-content table.docutils {
   table-layout: fixed;
   width: 100%;
+  color: #333333;
 }
 .rst-content table.docutils td, .rst-content table.docutils th {
   word-wrap: break-word;
