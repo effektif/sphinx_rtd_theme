@@ -5075,6 +5075,11 @@ footer p {
   margin: 15px 0 0 0;
   color: #7f7f7f;
 }
+.rst-content .versionadded p {
+  margin-bottom: 6px;
+  font-style: italic;
+  font-size: 14px;
+}
 
 @media screen and (max-width: 480px) {
   .rst-content .sidebar {
